@@ -1,98 +1,36 @@
 <!doctype html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="주인님과 둥둥이·앱둥이가 함께 만든 기록과 게임을 한곳에서 여는 통합 홈">
-  <meta name="theme-color" content="#f6f2ea">
-  <title>둥둥 보관함</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body id="top">
-  <header class="topbar">
-    <div class="wrap topbar-inner">
-      <a class="brand" href="#top" aria-label="둥둥 보관함 홈">
-        <span class="brand-mark" aria-hidden="true">둥</span>
-        <span>둥둥 보관함</span>
-      </a>
-      <nav class="nav" aria-label="주요 메뉴">
-        <a href="#top">홈</a>
-        <a href="#records">기록</a>
-        <a href="#games">게임</a>
-      </nav>
-    </div>
-  </header>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>함께 만든 기록</title>
+<style>
+@font-face{font-family:"CollectionRound";src:url("assets/fonts/NanumSquareRoundR.ttf") format("truetype");font-style:normal;font-weight:400;font-display:swap}
 
-  <main class="wrap">
-    <section class="hero" aria-labelledby="hero-title">
-      <p class="eyebrow">주인님 × 둥둥이 × 앱둥이</p>
-      <h1 id="hero-title">함께 만든 것들을<br>한곳에서 꺼내 봅니다.</h1>
-      <p>글과 그림, 게임까지. 서로 다른 공간은 그대로 지키고, 들어가는 문만 하나로 모았습니다.</p>
-      <div class="hero-links" aria-label="분야 바로가기">
-        <a href="#records">기록 보기</a>
-        <a href="#games">게임 열기</a>
-      </div>
-    </section>
-
-    <section class="section" id="records" aria-labelledby="records-title">
-      <div class="section-head">
-        <div><span class="section-icon" aria-hidden="true">✎</span><h2 id="records-title">기록</h2></div>
-        <p>생각과 이야기, 그림을 차곡차곡 모았습니다.</p>
-      </div>
-      <div class="card-grid card-grid--records">
-        <a class="card" href="https://haruki40-sys.github.io/dungdung_essay/webtoons/polly/">
-          <span class="status status--active">EP.01 완성본 · 9페이지 · 36컷</span><span class="card-icon" aria-hidden="true">🐾</span>
-          <h3>폴리와 함께 하는 느긋한 이세계 여행</h3><p>낯선 세계에서 시작된 윤과 폴리의 여행을 웹툰으로 만납니다.</p><span class="go">회차 목록 보기 →</span>
-        </a>
-        <a class="card" href="https://haruki40-sys.github.io/dungdung_essay/">
-          <span class="status status--active">운영 중</span><span class="card-icon" aria-hidden="true">📝</span>
-          <h3>주인님 에세이</h3><p>일상에서 건져 올린 생각과 이야기를 읽습니다.</p><span class="go">읽으러 가기 →</span>
-        </a>
-        <a class="card" href="https://haruki40-sys.github.io/dungdung_essay/insights/">
-          <span class="status status--active">운영 중</span><span class="card-icon" aria-hidden="true">💬</span>
-          <h3>둥둥 명언록</h3><p>다시 꺼내 볼 한 문장과 원문의 맥락을 모았습니다.</p><span class="go">한줄평 보기 →</span>
-        </a>
-        <a class="card" href="https://haruki40-sys.github.io/dungdung_essay/gallery/">
-          <span class="status status--active">운영 중</span><span class="card-icon" aria-hidden="true">🖼️</span>
-          <h3>둥둥 미술관</h3><p>사진과 기억을 그림으로 다시 바라봅니다.</p><span class="go">전시 보러 가기 →</span>
-        </a>
-        <a class="card" href="https://haruki40-sys.github.io/dungdung_essay/english/">
-          <span class="status status--active">운영 중</span><span class="card-icon" aria-hidden="true">📖</span>
-          <h3>영어 이야기</h3><p>흥미로운 소재를 영어 지문과 해석으로 만납니다.</p><span class="go">이야기 읽기 →</span>
-        </a>
-      </div>
-
-      <div class="resting" aria-labelledby="resting-title">
-        <div><h3 id="resting-title">잠시 쉬는 기록</h3><p>새 글은 쉬고 있지만, 지금까지 만든 기록은 그대로 열어둡니다.</p></div>
-        <div class="resting-grid">
-          <a href="https://haruki40-sys.github.io/dungdung_essay/imagination/"><span>🌙</span><strong>아이의 상상</strong><small>이야기 11편 · 잠시 쉬는 중</small></a>
-          <a href="https://haruki40-sys.github.io/dungdung_essay/court/"><span>⚖️</span><strong>AI 재판</strong><small>판례 8편 · 잠시 쉬는 중</small></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="games" aria-labelledby="games-title">
-      <div class="section-head">
-        <div><span class="section-icon section-icon--game" aria-hidden="true">◆</span><h2 id="games-title">게임</h2></div>
-        <p>서로 다른 세계에서 직접 선택하고 추리해 보세요.</p>
-      </div>
-      <div class="card-grid">
-        <a class="card card--game" href="https://haruki40-sys.github.io/dungdung-management-office/">
-          <span class="status status--active">공개 중</span><span class="card-icon" aria-hidden="true">🏢</span>
-          <h3>오늘도 관리사무소</h3><p>주민의 이야기를 듣고, 한정된 예산으로 아파트의 하루를 바꿉니다.</p><span class="go">관리사무소 열기 →</span>
-        </a>
-        <a class="card card--game" href="https://haruki40-sys.github.io/dungdung-mystery/">
-          <span class="status status--active">CASE 001</span><span class="card-icon" aria-hidden="true">🔎</span>
-          <h3>달빛 악보 실종사건</h3><p>현장을 조사하고 증언을 비교해 사라진 악보의 진실을 찾아갑니다.</p><span class="go">수사 시작하기 →</span>
-        </a>
-      </div>
-    </section>
-
-  </main>
-
-  <footer><div class="wrap footer-box">주인님과 둥둥이·앱둥이가 함께 만든 기록 · 게임 보관함</div></footer>
-</body>
-</html>
-
-
-
+:root{--ink:#173f5f;--muted:#6b7c86;--paper:#f8f9f6;--line:#dbe3e3;--teal:#257c76}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:92px}body{margin:0;color:var(--ink);background:var(--paper);font:15px/1.6 "CollectionRound","NanumSquareRound","Malgun Gothic",Arial,sans-serif;word-break:keep-all}a{color:inherit;text-decoration:none}a:focus-visible,summary:focus-visible{outline:3px solid var(--teal);outline-offset:5px}.wrap{width:min(1160px,calc(100% - 64px));margin:auto}
+.top{position:sticky;top:0;z-index:5;background:rgba(248,249,246,.97);border-bottom:1px solid var(--line)}.bar{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:20px;font-weight:800;letter-spacing:-1px;display:flex;align-items:center;gap:12px}.mark{display:grid;place-items:center;width:34px;height:34px;color:white;background:var(--ink);border-radius:11px;font-size:18px}.nav{display:flex;gap:8px}.nav a{padding:10px 18px;border-radius:30px;font-size:14px;font-weight:700}.nav a:hover{background:#e8eeeb}
+.intro{padding:40px 0 28px;display:flex;align-items:baseline;justify-content:space-between}.intro h1{font-size:36px;letter-spacing:-2px;line-height:1.25;margin:0}.intro span{color:var(--muted);font-size:12px;letter-spacing:2px}
+section{padding:20px 0 28px}.section-head{display:flex;align-items:center;gap:12px;margin-bottom:17px}.section-head h2{font-size:21px;margin:0;letter-spacing:-1px}.section-head span{font-size:11px;letter-spacing:2px;color:var(--muted)}.section-head:after{content:"";height:1px;background:var(--line);flex:1;margin-left:10px}
+.grid{display:grid;gap:22px}.read-grid{grid-template-columns:repeat(3,1fr)}.view-grid{grid-template-columns:1.1fr 1fr}.tile{display:block;min-width:0}.art{position:relative;border-radius:14px;overflow:hidden;background:#e4e9e6}.art img{display:block;width:100%;height:100%;object-fit:cover}.read-grid .art{height:206px}.art:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 1px #173f5f0b;border-radius:inherit;pointer-events:none}.caption{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-top:11px}.caption h3{font-size:17px;letter-spacing:-.6px;margin:0}.arrow{font-size:20px;color:var(--teal)}.tile:hover .caption h3{text-decoration:underline;text-underline-offset:5px}
+.quote .art img{object-position:center 50%;filter:brightness(.57)}.quote-text{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-family:Georgia,"Malgun Gothic",serif;font-size:28px;letter-spacing:-1px;line-height:1.7;text-align:center}.quote-text b{font-weight:400}.gallery-art{height:278px}.gallery-art img{object-position:center 44%}.polly-art{height:278px;background:#e2edf4;display:flex;align-items:center}.polly-art img{object-fit:contain;height:auto}.small{font-size:11px;font-weight:400;color:var(--muted);margin-left:8px}
+.play-grid{grid-template-columns:1fr 1fr;align-items:start}.theater .art{height:250px}.office .art{height:250px}.office img{object-position:center 46%}.mystery{min-width:0;background:#eaf0ef;border-radius:16px;padding:18px}.mystery-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:13px}.mystery h3{font-size:18px;margin:0}.mystery-head span{font-size:11px;color:var(--muted)}.cases{display:grid;grid-template-columns:1fr 1fr;gap:14px}.cases .art{height:173px;border-radius:10px}.case-label{position:absolute;top:12px;left:12px;color:#fff;background:#16374eda;padding:4px 8px;border-radius:5px;font-size:10px;letter-spacing:1px}.cases .caption h4{font-size:14px;margin:0;letter-spacing:-.4px}.cases .caption{margin-top:9px}
+footer{margin-top:20px;padding:24px 0 30px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.footer-row{display:flex;justify-content:space-between;align-items:flex-start}summary{cursor:pointer;padding:0 0 12px}.past{display:flex;gap:20px}.past a{display:inline-block;padding:8px 0}.past a:hover{text-decoration:underline}
+@media(min-width:1500px){.wrap{width:1240px}.read-grid .art{height:222px}.gallery-art,.polly-art{height:300px}}
+@media(max-width:760px){.wrap{width:calc(100% - 36px)}.bar{height:64px}.brand{font-size:17px;gap:8px}.mark{width:29px;height:29px;font-size:16px}.nav{gap:0}.nav a{padding:10px;font-size:12px}.intro{padding:28px 0 16px}.intro h1{font-size:27px;letter-spacing:-1.5px}.intro span{display:none}section{padding:18px 0}.section-head h2{font-size:19px}.section-head span{font-size:9px}.grid{gap:14px}.read-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.read-grid .art{height:125px;border-radius:10px}.caption{margin-top:8px;gap:3px}.caption h3{font-size:12px;letter-spacing:-.5px}.arrow{font-size:16px}.quote-text{font-size:15px}.view-grid,.play-grid{grid-template-columns:1fr}.gallery-art{height:200px}.polly-art{height:auto}.polly-art img{width:100%;height:auto}.view-grid .caption h3,.office .caption h3{font-size:16px}.view-grid{gap:24px}.play-grid{gap:22px}.office .art,.theater .art{height:210px}.theater .caption h3{font-size:16px}.mystery{padding:14px}.cases{gap:12px}.cases .art{height:130px}.cases .caption h4{font-size:12px}.case-label{left:8px;top:8px;font-size:9px}.footer-row{gap:20px}.small{font-size:10px}.footer-row>span{font-size:10px}}
+@media(max-width:360px){.wrap{width:calc(100% - 28px)}.nav a{padding:10px 7px}.read-grid{gap:10px}.read-grid .art{height:108px}.caption h3{font-size:11px}.read-grid .arrow{display:none}.cases .art{height:115px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head>
+<body id="top"><header class="top"><div class="wrap bar"><a class="brand" href="#top"><span class="mark" aria-hidden="true">둥</span>함께 만든 기록</a><nav class="nav" aria-label="분야"><a href="#read">읽기</a><a href="#view">보기</a><a href="#games">플레이</a></nav></div></header>
+<main class="wrap">
+<div class="intro"><h1>취향대로, 꺼내 보기.</h1><span>DUNGDUNG COLLECTION</span></div>
+<span id="records"></span><section id="read" aria-labelledby="read-title"><div class="section-head"><h2 id="read-title">읽는 즐거움</h2><span>READ</span></div><div class="grid read-grid">
+<a class="tile" href="https://haruki40-sys.github.io/dungdung_essay/"><div class="art"><img src="assets/essay.webp" alt="글과 음악을 함께 만드는 따뜻한 작업실"></div><div class="caption"><h3>주인님 에세이</h3><span class="arrow" aria-hidden="true">↗</span></div></a>
+<a class="tile" href="https://haruki40-sys.github.io/dungdung_essay/insights/"><div class="art"><img src="assets/quote-v2.png" alt="햇살 드는 창가의 책과 황금빛 인용부호"></div><div class="caption"><h3>둥둥 명언록</h3><span class="arrow" aria-hidden="true">↗</span></div></a>
+<a class="tile" href="https://haruki40-sys.github.io/dungdung_essay/english/"><div class="art"><img src="assets/english.webp" alt="영어 이야기 일러스트"></div><div class="caption"><h3>영어 이야기</h3><span class="arrow" aria-hidden="true">↗</span></div></a>
+</div></section>
+<section id="view" aria-labelledby="view-title"><div class="section-head"><h2 id="view-title">보는 즐거움</h2><span>LOOK</span></div><div class="grid view-grid">
+<a class="tile" href="https://haruki40-sys.github.io/dungdung_essay/gallery/"><div class="art gallery-art"><img src="assets/gallery.webp" alt="도시 사이로 펼쳐진 푸른 하늘과 분홍빛 구름" loading="lazy"></div><div class="caption"><h3>둥둥 미술관</h3><span class="arrow" aria-hidden="true">↗</span></div></a>
+<a class="tile" href="https://haruki40-sys.github.io/dungdung_essay/webtoons/polly/" aria-label="폴리와 함께 하는 느긋한 이세계 여행 회차 목록"><div class="art polly-art"><img src="assets/polly.webp" alt="폴리와 함께 하는 느긋한 이세계 여행 대표 이미지" loading="lazy"></div><div class="caption"><h3>폴리의 이세계 여행</h3><span class="arrow" aria-hidden="true">↗</span></div></a>
+</div></section>
+<section id="games" aria-labelledby="games-title"><div class="section-head"><h2 id="games-title">플레이하는 즐거움</h2><span>PLAY</span></div><div class="grid play-grid">
+<a class="tile office" href="https://haruki40-sys.github.io/dungdung-management-office/"><div class="art"><img src="assets/office.webp" alt="오늘도 관리사무소의 아파트 풍경" loading="lazy"></div><div class="caption"><h3>오늘도 관리사무소</h3><span class="arrow" aria-hidden="true">↗</span></div></a>
+<a class="tile theater" href="mystery/"><div class="art"><img src="assets/mystery-cover.png" alt="사건 파일과 돋보기가 놓인 추리극장의 서재" loading="lazy"></div><div class="caption"><h3>둥둥 추리극장</h3><span class="arrow" aria-hidden="true">↗</span></div></a>
+</div></section>
+<footer><div class="footer-row"><details><summary>지난 기록</summary><div class="past"><a href="https://haruki40-sys.github.io/dungdung_essay/imagination/">아이의 상상 ↗</a><a href="https://haruki40-sys.github.io/dungdung_essay/court/">AI 재판 ↗</a></div></details><span>주인님과 둥둥이의 작은 수집</span></div></footer>
+</main></body></html>
